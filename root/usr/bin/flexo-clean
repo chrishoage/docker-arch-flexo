@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+
+paccache -r -k$CRON_PACCACHE_KEEP  $(find $FLEXO_CACHE_DIRECTORY -type d -name x86_64 -printf "-c %p ") >/proc/1/fd/1 >2/proc/1/fd/2

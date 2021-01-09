@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+echo "$CRON_PACCACHE_CLEAN  root  /usr/bin/flex-clean" > /etc/cron.d/paccache-clean
+
+chmod 0644 /etc/cron.d/*

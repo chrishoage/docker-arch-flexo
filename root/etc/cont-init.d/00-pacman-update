@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+pacman -Syu --noconfirm
+paccache --keep 0 --remove
