@@ -1,6 +1,6 @@
 FROM rust:1.48.0-buster AS builder
 
-ARG FLEXO_VERSION=1.0.12
+ARG FLEXO_VERSION=1.1.0
 
 WORKDIR /build/
 
